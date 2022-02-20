@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(246, 236, 255);
+    border: 8px solid;
+    border-radius: 4%;
+    border-style:dashed;
+    border-color: rgb(6, 6, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cv{
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+}
+p{
+    line-height: 1.4em;
+    text-align: justify;
+}
+img{
+    float:right;
+    width: 140px;
+    border-radius: 4%;
+}
+
+#position{
+    font-family: 'Times New Roman',Times, serif ;
+    font-size:20px;
+    font-style: bold;
+    font-weight: 600;
+}
+table{
+    border-spacing: 15px ;
+    line-height: 1.4em;
+}
+ul{
+    list-style-type: square;
+    line-height: 1.4em;
+}
+a{
+    color:black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(206, 206, 252);
+    color:blue;
+}
+
+h1{
+    font-family: 'Times New Roman',Times, serif ;
+    color: rgb(5, 5, 78)
+}
+
+h2{
+    color:  rgb(7, 7, 58);
+}
