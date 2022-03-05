@@ -1,40 +1,50 @@
 body{
-    background-color:rgb(246, 236, 255);
-    border: 8px solid;
-    border-radius: 4%;
-    border-style:dashed;
-    border-color: rgb(6, 6, 90);
+    
+    background-color: rgb(225, 225, 238);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-size-adjust: auto;
 }
+
 .cv{
-    width: 80%;
-    margin: 50px auto;
-    padding: 30px;
+    width: 50%;
+    margin: auto auto;
+    padding:40px 50px;
+    border: 0.25px solid;
+    border-style: dashed;
+    border-color: black;
+    background-color:rgb(255, 255, 255);
+    box-shadow: black 0px 0px 8px;
 }
+
 p{
     line-height: 1.4em;
     text-align: justify;
 }
+
 img{
     float:right;
     width: 140px;
+    border: 2px black solid;
     border-radius: 4%;
 }
 
 #position{
     font-family: 'Times New Roman',Times, serif ;
     font-size:20px;
-    font-style: bold;
-    font-weight: 600;
 }
+
 table{
-    border-spacing: 15px ;
-    line-height: 1.4em;
+    border-spacing: 10px ;
+    line-height: 1.2em;
+    place-items: center;
+    align-items: center;
 }
+
 ul{
     list-style-type: square;
     line-height: 1.4em;
 }
+
 a{
     color:black;
 }
@@ -50,7 +60,7 @@ a:hover{
 
 h1{
     font-family: 'Times New Roman',Times, serif ;
-    color: rgb(5, 5, 78)
+    color: rgb(5, 5, 78);
 }
 
 h2{
